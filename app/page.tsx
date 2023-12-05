@@ -18,8 +18,6 @@ export default function App() {
     handleSubmit,
   } = useForm<Inputs>()
   const onSubmit = (data) => {
-    console.log(data)
-    // const dob = new Date(data.year, data.month, data.day, 0, 0, 0, 0);
     var d1 = data.day;
     var m1 = data.month;
     var y1 = data.year;
